@@ -1,0 +1,126 @@
+  F Z 5 D F 1FLMVDVRDMZQN3CO4MIJOK1JRR2
+0x465a35444631464c4d56445652444d5a514e33434f344d494a4f4b314a525232
+
+https://points-api.lavanet.xyz/accounts/metamask1/login/
+post
+{
+    "account": "0xd9df236a982536aab70c8e3a3f2d166038eb4b2f",
+    "process": "token",
+    "invite_code": ""
+}
+
+{
+    "data": "FZ5DF1FLMVDVRDMZQN3CO4MIJOK1JRR2",
+    "success": true
+}
+
+
+
+sign
+
+https://points-api.lavanet.xyz/accounts/metamask1/login/
+post
+{
+    "account": "0xd9df236a982536aab70c8e3a3f2d166038eb4b2f",
+    "login_token": "0x4d559b5a54cac0b90163a72541aa5b5af8a2274cc33f913bc4f1dc43fab2716736a932585bbf08907e8bf5bf9800f0206e91a71bdccb11271f5180b443ac9bdc1b",
+    "process": "verify",
+    "invite_code": "",
+    "base_login_token": "LSASELKVU4DOJ8D7WY8D78F0IK2CXOYF"
+}
+
+{
+    "data": "d48a8d38-a81b-4756-b6fb-c1e7feccca94",
+    "success": true
+}
+
+
+https://points-api.lavanet.xyz/api/v2/users/me
+get
+
+{
+    "username": "0xd9df236a982536aab70c8e3a3f2d166038eb4b2f",
+    "nickname": "0xd9df...eb4b2f",
+    "avatar_url": "https://ui-avatars.com/api/?name=&size=128&background=a787c5&color=fff&length=2&rounded=false&bold=true",
+    "wallet_address": "0xd9df...eb4b2f",
+    "lava_id": null,
+    "user_hash": "d48a8d38-a81b-4756-b6fb-c1e7feccca94",
+    "provider_address": null,
+    "has_twitter": false,
+    "invite_url": "https://points.lavanet.xyz/register?code=1YH84",
+    "stats": {
+        "rank": 15371,
+        "last_rank": 15310,
+        "total_players": 3430132,
+        "points": {
+            "wallet": 161139,
+            "gateway": 0,
+            "provider": 0,
+            "validator": 0,
+            "bonus": 0,
+            "total_points": 161139
+        }
+    },
+    "chains": [
+        {
+            "name": "NEAR",
+            "icon_url": "https://points-fe-assets.s3.us-east-2.amazonaws.com/chains/near.png",
+            "urls": [
+                {
+                    "name": "Mainnet",
+                    "value": "https://near.lava.build/lava-referer-d48a8d38-a81b-4756-b6fb-c1e7feccca94/"
+                },
+                {
+                    "name": "Testnet",
+                    "value": "https://near-testnet.lava.build/lava-referer-d48a8d38-a81b-4756-b6fb-c1e7feccca94/"
+                }
+            ]
+        },
+        {
+            "name": "STRK",
+            "icon_url": "https://points-fe-assets.s3.us-east-2.amazonaws.com/chains/starknet.png",
+            "urls": [
+                {
+                    "name": "Mainnet",
+                    "value": "https://rpc.starknet.lava.build/lava-referer-d48a8d38-a81b-4756-b6fb-c1e7feccca94/"
+                },
+                {
+                    "name": "Testnet",
+                    "value": "https://rpc.starknet-testnet.lava.build/lava-referer-d48a8d38-a81b-4756-b6fb-c1e7feccca94/"
+                }
+            ]
+        },
+        {
+            "name": "ETH",
+            "icon_url": "https://points-fe-assets.s3.us-east-2.amazonaws.com/chains/eth.png",
+            "urls": [
+                {
+                    "name": "Mainnet",
+                    "value": "https://eth1.lava.build/lava-referer-d48a8d38-a81b-4756-b6fb-c1e7feccca94/"
+                }
+            ]
+        },
+        {
+            "name": "AXELAR",
+            "icon_url": "https://points-fe-assets.s3.us-east-2.amazonaws.com/chains/axelar.png",
+            "urls": [
+                {
+                    "name": "Mainnet RPC",
+                    "value": "https://tm.axelar.lava.build/lava-referer-d48a8d38-a81b-4756-b6fb-c1e7feccca94/"
+                },
+                {
+                    "name": "Testnet RPC",
+                    "value": "https://tm.axelar-testnet.lava.build/lava-referer-d48a8d38-a81b-4756-b6fb-c1e7feccca94/"
+                },
+                {
+                    "name": "Mainnet LCD",
+                    "value": "https://rest.axelar.lava.build/lava-referer-d48a8d38-a81b-4756-b6fb-c1e7feccca94/"
+                },
+                {
+                    "name": "Testnet LCD",
+                    "value": "https://rest.axelar-testnet.lava.build/lava-referer-d48a8d38-a81b-4756-b6fb-c1e7feccca94/"
+                }
+            ]
+        }
+    ],
+    "date_joined": "2024-03-07T09:47:06.845Z"
+}
